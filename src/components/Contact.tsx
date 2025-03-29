@@ -122,7 +122,7 @@ const Contact = () => {
         </svg>
       ),
       title: 'Phone',
-      value: '+1 (123) 456-7890',
+      value: '+91 9816797667',
       animation: { y: [0, -5, 0] }
     },
     {
@@ -133,7 +133,7 @@ const Contact = () => {
         </svg>
       ),
       title: 'Email',
-      value: 'contact@example.com',
+      value: 'pritithakur7667@gmail.com',
       animation: { x: [0, 5, 0] }
     },
     {
@@ -145,7 +145,7 @@ const Contact = () => {
         </svg>
       ),
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Gurgaon, India',
       animation: { y: [0, 5, 0] }
     }
   ];
@@ -246,7 +246,7 @@ const Contact = () => {
                 </h3>
                 <div className="grid grid-cols-3 gap-4">
                   <motion.a 
-                    href="https://github.com/yourusername" 
+                    href="https://github.com/pritithakur" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex flex-col items-center justify-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors duration-300"
@@ -260,7 +260,7 @@ const Contact = () => {
                   </motion.a>
                   
                   <motion.a 
-                    href="https://linkedin.com/in/yourusername" 
+                    href="https://www.linkedin.com/in/priti-thakur-193078201/"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex flex-col items-center justify-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors duration-300"
@@ -274,7 +274,7 @@ const Contact = () => {
                   </motion.a>
                   
                   <motion.a 
-                    href="https://twitter.com/yourusername" 
+                    href="https://x.com/PritiThaku96307" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex flex-col items-center justify-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors duration-300"

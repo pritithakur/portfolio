@@ -54,7 +54,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              <span className="block">Hi, I&apos;m</span>
+              <span className="block">Hi, I'm</span>
               <span className="text-[var(--primary)] inline-block">Priti Thakur</span>
             </motion.h1>
             
@@ -91,7 +91,7 @@ const Hero = () => {
             >
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Link 
-                  href="#projects"
+                  href="/projects"
                   className="px-6 py-3 bg-[var(--primary)] text-white font-medium rounded-lg shadow-lg hover:bg-[var(--primary-dark)] transition-colors duration-300"
                 >
                   View Projects
@@ -116,7 +116,7 @@ const Hero = () => {
               transition={{ delay: 1, duration: 0.8 }}
             >
               <motion.a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/pritithakur" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ y: -5, color: "var(--primary)" }}
@@ -127,7 +127,7 @@ const Hero = () => {
                 </svg>
               </motion.a>
               <motion.a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/priti-thakur-193078201/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ y: -5, color: "var(--primary)" }}
@@ -138,7 +138,7 @@ const Hero = () => {
                 </svg>
               </motion.a>
               <motion.a 
-                href="https://twitter.com/yourusername" 
+                href="https://x.com/PritiThaku96307" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ y: -5, color: "var(--primary)" }}

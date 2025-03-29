@@ -2,38 +2,38 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      duration: "2021 - Present",
+      title: "Full Stack Developer",
+      company: "Eazydiner",
+      duration: "2024 - Present",
       description: [
-        "Led a team of 5 developers in building a cloud-based SaaS platform",
-        "Implemented microservices architecture using Node.js and Express",
+        "Built and maintained RESTful APIs for web applications",
+        "Developed frontend using Nextjs, Tailwind CSS, and Material UI",
+        "Implemented microservices architecture using Node.js and Express for sitemaps",
         "Developed responsive UI components with React and Tailwind CSS",
-        "Improved API response times by 40% through optimized database queries"
+        "Automated tasks for metrics calculation and reporting using lambda functions"
       ]
     },
     {
       id: 2,
-      title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      duration: "2018 - 2021",
+      title: "Web Developer",
+      company: "Alotusinthemud",
+      duration: "2023-2024",
       description: [
-        "Built and maintained RESTful APIs for mobile and web applications",
-        "Developed frontend using React, Redux, and Material UI",
-        "Implemented CI/CD pipelines using GitHub Actions",
-        "Collaborated with design team to implement responsive web designs"
+        "Designed and developed a website for a client using WordPress and Elementor",
+        "Integrated payment gateway for secure transactions",
+        "Optimized website performance and SEO",
+        "Managed content updates and user feedback"
       ]
     },
     {
       id: 3,
-      title: "Junior Web Developer",
-      company: "WebCraft Studios",
-      duration: "2016 - 2018",
+      title: "Frontend Developer Intern",
+      company: "Shoolini University",
+      duration: "2022 - 2023",
       description: [
-        "Developed and maintained websites for small to medium-sized businesses",
-        "Implemented responsive designs using HTML, CSS, and JavaScript",
-        "Worked with WordPress and custom PHP solutions",
-        "Collaborated with designers to ensure pixel-perfect implementations"
+        "Worked on the university website using Laravel.",
+        "Managed the content of the website.",
+        "Regular updates and maintenance of the website.",
       ]
     }
   ];

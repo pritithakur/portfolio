@@ -26,11 +26,10 @@ const Skills = () => {
         { name: "HTML5", level: 90 },
         { name: "CSS3/SCSS", level: 85 },
         { name: "JavaScript", level: 90 },
-        { name: "TypeScript", level: 85 },
         { name: "React", level: 90 },
         { name: "Next.js", level: 85 },
         { name: "Tailwind CSS", level: 90 },
-        { name: "Material UI", level: 80 }
+        { name: "Bootstrap", level: 85 }
       ]
     },
     {
@@ -46,9 +45,8 @@ const Skills = () => {
         { name: "Node.js", level: 85 },
         { name: "Express", level: 85 },
         { name: "Python", level: 75 },
-        { name: "Django", level: 70 },
-        { name: "RESTful APIs", level: 90 },
-        { name: "GraphQL", level: 75 }
+        {name: "Nestjs", level: 70},
+        {name: "c++", level: 60}
       ]
     },
     {
@@ -61,10 +59,8 @@ const Skills = () => {
       ),
       color: "#f59e0b",
       skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "PostgreSQL", level: 80 },
         { name: "MySQL", level: 75 },
-        { name: "Firebase", level: 80 }
+        { name: "MongoDB", level: 45 },
       ]
     },
     {
@@ -80,10 +76,7 @@ const Skills = () => {
       skills: [
         { name: "Git", level: 90 },
         { name: "Docker", level: 75 },
-        { name: "CI/CD", level: 80 },
         { name: "AWS", level: 70 },
-        { name: "Jest", level: 80 },
-        { name: "Webpack", level: 75 }
       ]
     }
   ];
