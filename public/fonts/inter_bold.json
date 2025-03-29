@@ -1,0 +1,40 @@
+{
+  "glyphs": {
+    "P": {
+      "ha": 1229,
+      "x_min": 148,
+      "x_max": 1159,
+      "o": "m 148 0 l 148 1456 l 676 1456 q 946 1403 844 1456 q 1096 1246 1047 1350 q 1145 1023 1145 1143 q 1096 800 1145 903 q 946 643 1047 696 q 676 590 844 590 l 330 590 l 330 0 l 148 0 m 330 1329 l 330 717 l 661 717 q 903 761 816 717 q 1016 872 989 804 q 1042 1023 1042 940 q 1016 1174 1042 1106 q 903 1285 989 1242 q 661 1329 816 1329 l 330 1329 z "
+    },
+    "T": {
+      "ha": 1251,
+      "x_min": 21,
+      "x_max": 1229,
+      "o": "m 625 1329 l 625 0 l 444 0 l 444 1329 l 21 1329 l 21 1456 l 1229 1456 l 1229 1329 l 625 1329 z "
+    }
+  },
+  "familyName": "Inter",
+  "ascender": 1900,
+  "descender": -500,
+  "underlinePosition": -200,
+  "underlineThickness": 100,
+  "boundingBox": {
+    "yMin": -555,
+    "xMin": -1838,
+    "yMax": 2163,
+    "xMax": 3541
+  },
+  "resolution": 1000,
+  "original_font_information": {
+    "format": 0,
+    "copyright": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+    "fontFamily": "Inter",
+    "fontSubfamily": "Bold",
+    "uniqueID": "3.19;RSMS;Inter-Bold",
+    "fullName": "Inter Bold",
+    "version": "3.19",
+    "postScriptName": "Inter-Bold"
+  },
+  "cssFontWeight": "bold",
+  "cssFontStyle": "normal"
+} 
