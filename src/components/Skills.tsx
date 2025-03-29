@@ -6,6 +6,12 @@ import { useState } from 'react';
 const Skills = () => {
   const [hoveredCategory, setHoveredCategory] = useState<number | null>(null);
   
+  // Define fadeIn animation variant
+  const fadeIn = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0 }
+  };
+  
   const skillCategories = [
     {
       id: 1,
@@ -115,9 +121,15 @@ const Skills = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 mb-8"></div>
           <p className="text-lg text-center max-w-3xl text-gray-600 dark:text-gray-400 mb-10">
-            I've worked with a variety of technologies and tools throughout my career.
-            Here's an overview of my technical skills and expertise.
+            I&apos;ve worked with a variety of technologies and tools throughout my career.
+            Here&apos;s an overview of my technical skills and expertise.
           </p>
+          <motion.p 
+            className="text-center text-gray-600 dark:text-gray-400 mt-2 mb-6"
+            variants={fadeIn}
+          >
+            My technical expertise and tools I&apos;ve been working with recently
+          </motion.p>
         </motion.div>
 
         <motion.div 

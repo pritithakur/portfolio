@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import Image from 'next/image';
 
 const About = () => {
   const skillsRef = useRef<HTMLDivElement>(null);
@@ -63,12 +64,16 @@ const About = () => {
                 className="relative mb-8"
               >
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-xl overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--accent)] flex items-center justify-center text-white text-4xl font-bold shadow-xl border-4 border-white dark:border-gray-800">
-                  <img 
-                    src="/images/profile.jpeg" 
-                    alt="Priti Thakur" 
-                    className="w-full h-full object-cover"
-                  />
-                 
+                  <div className="relative w-full h-full">
+                    <Image 
+                      src="/images/profile.jpeg" 
+                      alt="Priti Thakur" 
+                      fill
+                      sizes="(max-width: 768px) 16rem, 20rem"
+                      priority
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 px-4 py-2 rounded-lg shadow-md">
                   <span className="text-[var(--primary)] font-bold">Full Stack Developer</span>
@@ -113,12 +118,12 @@ const About = () => {
                   </p>
                   <p className="text-lg text-gray-700 dark:text-gray-300">
                     My journey in software development began with a curiosity about how things work on the web. 
-                    Over time, I've honed my skills in JavaScript, React, Node.js, and various other technologies 
+                    Over time, I&apos;ve honed my skills in JavaScript, React, Node.js, and various other technologies 
                     that enable me to bring ideas to life.
                   </p>
                   <p className="text-lg text-gray-700 dark:text-gray-300">
                     I believe in continuous learning and staying updated with the latest industry trends. 
-                    When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                    When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source 
                     projects, or enjoying outdoor activities.
                   </p>
                 </div>

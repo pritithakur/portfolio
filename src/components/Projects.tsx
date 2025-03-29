@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
@@ -104,8 +103,8 @@ const Projects = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 mb-8"></div>
           <p className="text-lg text-center max-w-3xl text-gray-600 dark:text-gray-400">
-            Here are some of the projects I've worked on. Each project represents different challenges and technologies
-            I've used to create meaningful digital experiences.
+            Here are some of the projects I&apos;ve worked on. Each project represents different challenges and technologies
+            I&apos;ve used to create meaningful digital experiences.
           </p>
         </motion.div>
 
@@ -153,15 +152,6 @@ const Projects = () => {
                     <h3 className="text-white text-2xl font-bold z-10">{project.title}</h3>
                   </div>
                 </div>
-                
-                {/* Uncomment and add your image path when available
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                */}
               </div>
               
               <div className="p-6">
