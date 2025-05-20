@@ -135,17 +135,6 @@ const Projects = () => {
                     }}
                     transition={{ duration: 0.3 }}
                   >
-                    <motion.h3 
-                      className="text-white text-2xl font-bold"
-                      initial={{ scale: 0.8, opacity: 0 }}
-                      animate={{ 
-                        scale: activeProjectIndex === index ? 1 : 0.8,
-                        opacity: activeProjectIndex === index ? 1 : 0
-                      }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      View Details
-                    </motion.h3>
                   </motion.div>
                   
                   <div className="absolute inset-0 flex items-center justify-center">
