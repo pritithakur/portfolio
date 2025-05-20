@@ -9,39 +9,39 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A full-featured e-commerce platform with product management, cart functionality, user authentication, and payment processing.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
-      image: "/images/project-1.jpg",
-      demoLink: "https://project1.example.com",
-      codeLink: "https://github.com/yourusername/project1"
+      title: "Events Booking Application",
+      description: "A full-featured events booking website which clones the functionality of zomato district. It allows the users to book their favourite events and lock their calendar for upcoming events.",
+      technologies: ["React", "Node.js", "Express", "MySql", "Tailwind"],
+      image: "",
+      demoLink: "#",
+      codeLink: "https://gitlab.com/priti3274004/eazydiner-events"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["Next.js", "Firebase", "Tailwind CSS", "React DnD"],
-      image: "/images/project-2.jpg",
-      demoLink: "https://project2.example.com",
-      codeLink: "https://github.com/yourusername/project2"
+      title: "Restaurant Booking Website",
+      description: "A team project in reactjs which clones the functionality of eazydiner to allow users for booking their slots in their favourite restaurants.",
+      technologies: ["React", "Express", "MySql", "Bootstrap"],
+      image: "",
+      demoLink: "#",
+      codeLink: "https://gitlab.com/team-51254204/restaurant-booking-website"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A weather dashboard that displays current weather conditions and forecasts for multiple locations with interactive visualizations.",
-      technologies: ["React", "Chart.js", "OpenWeather API", "Geolocation API"],
-      image: "/images/project-3.jpg",
-      demoLink: "https://project3.example.com",
-      codeLink: "https://github.com/yourusername/project3"
+      title: "Book Recommendation System",
+      description: "A machine learning based model trained in jupyter based on dataset available on Kaggle. ",
+      technologies: ["Python", "Flask"],
+      image: "",
+      demoLink: "#",
+      codeLink: "https://github.com/pritithakur/Book-recommendation-system"
     },
     {
       id: 4,
-      title: "Social Media Analytics",
-      description: "A dashboard that provides analytics and insights for social media accounts, including engagement metrics and audience demographics.",
-      technologies: ["Vue.js", "D3.js", "Node.js", "Express", "Social Media APIs"],
-      image: "/images/project-4.jpg",
-      demoLink: "https://project4.example.com",
-      codeLink: "https://github.com/yourusername/project4"
+      title: "Hotel Booking Website",
+      description: "A hotel website with features of booking rooms, camping, hotel and trek guide.",
+      technologies: ["HTML", "CSS", "JS"],
+      image: "",
+      demoLink: "https://business-website-roan.vercel.app/index.html",
+      codeLink: "https://github.com/pritithakur/Business-Website"
     }
   ];
 
