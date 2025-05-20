@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-tr from-[var(--primary-dark)] via-[var(--primary)] to-[var(--accent)] opacity-10 dark:opacity-20 -z-10"></div>
       
       {/* Geometric patterns */}
-      <div className="absolute inset-0 -z-5 overflow-hidden">
+      <div className="absolute inset-0 -z-5 overflow-hidden pointer-events-none">
         {[...Array(8)].map((_, i) => (
           <motion.div
             key={i}
@@ -39,7 +39,7 @@ const Hero = () => {
         ))}
       </div>
       
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center min-h-[80vh] gap-12">
           {/* Text content */}
           <motion.div 
@@ -91,7 +91,7 @@ const Hero = () => {
             >
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Link 
-                  href="/projects"
+                  href="/#projects"
                   className="px-6 py-3 bg-[var(--primary)] text-white font-medium rounded-lg shadow-lg hover:bg-[var(--primary-dark)] transition-colors duration-300"
                 >
                   View Projects
@@ -100,7 +100,7 @@ const Hero = () => {
               
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Link 
-                  href="#contact"
+                  href="tel:9816797667"
                   className="px-6 py-3 bg-transparent border-2 border-[var(--primary)] text-[var(--primary)] font-medium rounded-lg hover:bg-[var(--primary)] hover:text-white transition-colors duration-300"
                 >
                   Contact Me
